@@ -1,10 +1,11 @@
 var katzDeliLine = [];
 
-function takeANumber(currentLine, name) {
-  currentLine.push(name);
+function takeANumber(currentLine, ticketNumber) {
+  currentLine.push(ticketNumber);
   let place = currentLine.length;
+  let ticketNumber = 
   console.log (place);
-  return `Welcome, ${name}. You are number ${place} in line.`;
+  return `Welcome, ${ticketNumber}. You are number ${place} in line.`;
 }
 
 
